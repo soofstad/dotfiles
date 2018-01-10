@@ -45,25 +45,15 @@ fi
 
 
 # Interactive Docker-CE
-echo "Do you want to install Docker-CE? y/n"
+echo "Do you want to install Docker-CE and Compose? y/n"
 read answer
 if [ $answer = y ]; then
         echo "Installing Docker-CE"
-        apt install \
-	apt-transport-https \
-	ca-certificates \
-	curl \
-	software-properties-common
-
-	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
-
-	add-apt-repository \
-	"deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-	$(lsb_release -cs) \
-	stable"
-
-	apt update
-	apt install docker-ce
+	wget -O docker-ce.deb "https://download.docker.com/linux/ubuntu/dists/yakkety/pool/stable/amd64/docker-ce_17.06.0~ce-0~ubuntu_amd64.deb"
+	dpkg -i docker-ce.deb
+echo "Installing Compose"
+	curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
+	chmod +x /usr/local/bin/docker-compose
 else
 	echo "Not installing Docker..."
 fi
