@@ -7,14 +7,14 @@ if [ ! $(id -u) -eq '0' ]; then
 	exit
 fi
 
-APPS="git terminator fish vim python python3 keepass2  python-pip"
+APPS="git terminator fish vim python python3 keepass2 python-pip"
 apt update
 apt upgrade
 
 if [ ! -z $(which yum) ]; then
     yum install $APPS
 elif [ ! -z $(which apt) ]; then
-    apt install $APPS, unity-tweak-tool
+    apt install $APPS unity-tweak-tool compizconfig-settings-manager compiz-plugins
 else
     echo "Could not find a usable package manager..."
     echo "No packages installed...exiting"
@@ -25,6 +25,7 @@ fi
 echo "Do you want to download puppet development kit? y/n:"
 read answer
 if [ $answer = 'y' ]; then
+	apt install libreadline6
 	wget -O pdk-package.deb "https://pm.puppetlabs.com/cgi-bin/pdk_download.cgi?dist=ubuntu&rel=16.04&arch=amd64&ver=latest"
 	dpkg -i pdk-package.deb
 else

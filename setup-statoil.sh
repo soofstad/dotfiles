@@ -14,12 +14,14 @@ EOF
 
 git clone https://git.statoil.no/sdstrh/linux.git
 cd linux/proxy-settings/
-./environment-proxy.sh set
-./statoil-dns.sh statoil
-./proxy.sh set-entire
+#./environment-proxy.sh set
+#./statoil-dns.sh statoil
+#./proxy.sh set-entire
 
 cd ..
 ./update-statoil-ca-certificates.sh 
 ./install-certs-nssdb.sh
 
+
 xdg-open "http://www.displaylink.com/downloads/file?id=1087"
+zenity --text="Remember to set Proxy settings in GUI \nSettings => Network => Network Proxy => Manual\n HTTPS AND HTTPS \n'http://www-proxy.statoil.no:80'" --info 
