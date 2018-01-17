@@ -31,7 +31,8 @@
     background_type = transparent
     background_image = None
     cursor_color = "#c1ffc1"
-    font = Ubuntu 10
+    use_system_font = False
+    font = Ubuntu Mono Regular 12
     foreground_color = "#c1ffc1"
     scroll_background = False
     scroll_on_output = False
