@@ -7,7 +7,7 @@ if [ ! $(id -u) -eq '0' ]; then
 	exit
 fi
 
-APPS="git terminator fish vim python python3 keepass2 python-pip"
+APPS="git terminator fish vim python python3 keepass2 python-pip curl"
 apt update
 apt upgrade
 

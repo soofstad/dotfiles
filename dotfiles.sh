@@ -24,3 +24,6 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys custom-keybindings "[
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ name 'new-terminal'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ command 'terminator'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ binding '<Super>y'
+# Label Namespaces
+gsettings set org.gnome.desktop.wm.preferences workspace-names "['DEV', 'SOCIAL', 'RESEARCH', 'MUSIC']" 
+
