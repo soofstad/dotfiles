@@ -1,7 +1,0 @@
-# Description
-A git repository containing a few shell-scripts and configuration files to setup my linux environment just how I like it.
-
-# How to
-.* Run `git clone "this_repo"`
-.* To install some packages => run  "install_apps.sh"
--* To setup the environment => run "dotfiles.sh"
