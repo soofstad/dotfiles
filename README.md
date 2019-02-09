@@ -1,5 +1,6 @@
 # TODO on fresh install
 ## Delete and copy dotfiles
+Note: Do this in RecoveryMode. Plasma caches some files in memory and will overwrite you changes.
 
 ## Install some software
 ```
@@ -51,6 +52,16 @@ apt install -y ./steam.deb
 ```
 apt install -y tuxguitar tuxguitar-alsa tuxguitar-jsa tuxguitar-oss 
 ```
-
-
+## Some Kwin Desktop Effects I like
+* Wobbly Windows
+* Magic Lamp
+## Consider these settings
+* Power
+* Sleep
+* Screen Timeout
+* Autostart(services)
+* Login Screen
+* File Indexer (Baloo)
+* Update Policy
+* Desktop Theme
 
