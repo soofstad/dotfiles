@@ -15,7 +15,7 @@ apt-get install -y git fish elisa filelight keepassxc latte-dock libreoffice ter
 
 https://code.visualstudio.com/Download
 
-## Extensions
+### Extensions
 
 ``` bash
 EXTENSIONS=(
