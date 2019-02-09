@@ -1,0 +1,8 @@
+## WARNING: THIS IS NOT A VALID fstab file. YOUR SYSTEM WILL BREAK
+# Some lines that can be used as a starting point
+# Samba shares
+#//192.168.1.5/data /home/stig/data cifs vers=3.0,credentials=/home/stig/.config/smbcredentials,sec=ntlmssp 0 0
+#//192.168.1.5/speil /home/stig/speil cifs vers=3.0,uid=1000,gid=1000,credentials=/home/stig/.config/smbcredentials,sec=ntlmssp 0 0
+# NFS shares
+192.168.1.5:/speil       /home/stig/speil      nfs auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0
+192.168.1.5:/data       /home/stig/data      nfs auto,nofail,noatime,nolock,intr,tcp,actimeo=1800 0 0
