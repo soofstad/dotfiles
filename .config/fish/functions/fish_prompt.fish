@@ -13,4 +13,3 @@ function fish_prompt --description 'Write out the prompt'
    printf '%s' (set_color green)  (prompt_pwd)
    printf '%s' (set_color normal) (echo '>')
 end
-

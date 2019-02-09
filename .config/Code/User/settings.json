@@ -1,0 +1,10 @@
+{
+    "breadcrumbs.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": true,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay"
+}
