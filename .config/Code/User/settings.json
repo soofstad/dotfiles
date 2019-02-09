@@ -6,5 +6,10 @@
     "explorer.confirmDelete": false,
     "git.autofetch": true,
     "explorer.confirmDragAndDrop": false,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "gitProjectManager.baseProjectsFolders": [
+         "/home/stig/git",
+         "/private/stoo/Github",
+         "/private/stoo/Gitlab",
+    ]
 }
