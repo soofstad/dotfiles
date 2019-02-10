@@ -3,6 +3,7 @@
 ## Delete and copy dotfiles
 
 Note: Do this in RecoveryMode.  Plasma caches some files in memory and will overwrite you changes.
+Remember to set correct owner of files.
 
 ## Install some software
 
