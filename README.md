@@ -9,7 +9,7 @@ Remember to set correct owner of files.
 
 ``` bash
 apt-get update
-apt-get install -y git fish elisa filelight keepassxc latte-dock libreoffice terminator python3.7 
+apt-get install -y git fish elisa filelight keepassxc latte-dock libreoffice terminator python3.7 zim
 ```
 
 ## Visual Studio Code
