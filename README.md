@@ -88,7 +88,15 @@ apt install -y ./steam.deb
 ## Tuxguitar
 
 ```bash
-apt install -y tuxguitar tuxguitar-alsa tuxguitar-jsa tuxguitar-oss 
+apt install -y tuxguitar tuxguitar-alsa tuxguitar-jsa tuxguitar-oss
+```
+
+## KDE Plasma PPA
+
+```bash
+sudo add-apt-repository ppa:kubuntu-ppa/backports
+sudo apt update
+sudo apt full-upgrade
 ```
 
 ## Some Kwin Desktop Effects I like
