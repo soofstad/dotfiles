@@ -28,6 +28,7 @@ EXTENSIONS=(
     'PeterJausovec.vscode-docker'
     'redhat.vscode-yaml' 'rogalmic.bash-debug'
     'xabikos.JavaScriptSnippets'
+    'felipecaputo.git-project-manager'
 )
 
 for i in "${EXTENSIONS[@]}"; do
@@ -70,6 +71,8 @@ add-apt-repository ppa:graphics-drivers/ppa
 
 See here for latest drivers:  
 https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
+
+The combination nvidia+kde+HiDPI displays, require the Font Setting _Force Fonts DPI: 96_ to be set.
 
 ## Google Chrome
 
