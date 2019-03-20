@@ -23,6 +23,7 @@ EXTENSIONS=(
   'adamvoss.vscode-languagetool'
   'AlanWalk.markdown-toc'
   'bajdzis.vscode-database'
+  'bbenoist.vagrant'
   'daiyy.quick-html-previewer'
   'dsznajder.es7-react-js-snippets'
   'eamodio.gitlens'
@@ -30,6 +31,7 @@ EXTENSIONS=(
   'GrapeCity.gc-excelviewer'
   'ipedrazas.kubernetes-snippets'
   'jpogran.puppet-vscode'
+  'k--kato.intellij-idea-keybindings'
   'michelemelluso.gitignore'
   'mikestead.dotenv'
   'ms-kubernetes-tools.vscode-kubernetes-tools'
@@ -43,6 +45,7 @@ EXTENSIONS=(
   'shanoor.vscode-nginx'
   'skyapps.fish-vscode'
   'tht13.html-preview-vscode'
+  'timonwong.shellcheck'
   'xabikos.JavaScriptSnippets'
 )
 
