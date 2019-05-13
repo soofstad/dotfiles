@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
 
 [Compositing]
 AnimationSpeed=3
@@ -16,6 +16,10 @@ WindowsBlockCompositing=true
 XRenderSmoothScale=false
 
 [Desktops]
+Id_1=3e74085c-e50c-4855-8a7a-d982599aa644
+Id_2=a89e1382-1928-410a-82ef-b8d3909ba6d9
+Id_3=0f21ca32-43af-4b30-8d9a-c758f47da8f3
+Id_4=d59d3a0f-39bf-400d-a0d6-454ffc9baed6
 Name_1=GENERAL
 Name_2=GAMES
 Name_3=FILM
@@ -46,6 +50,11 @@ TabBoxAlternative=false
 BorderActivate=9
 BorderActivateAll=9
 BorderActivateClass=9
+
+[Effect-Wobbly]
+Drag=90
+Stiffness=6
+WobblynessLevel=2
 
 [ElectricBorders]
 Bottom=None
@@ -87,9 +96,9 @@ glideEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_maximizeEnabled=false
+kwin4_effect_scaleEnabled=true
+kwin4_effect_squashEnabled=false
 magiclampEnabled=true
-minimizeanimationEnabled=false
-scaleEnabled=true
 slideEnabled=false
 windowgeometryEnabled=false
 wobblywindowsEnabled=true
@@ -115,7 +124,7 @@ DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=1
 HighlightWindows=true
-LayoutName=informative
+LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
@@ -174,4 +183,4 @@ ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Breezemite_dark
+theme=__aurorae__svg__Breezemite_dark_OPT
