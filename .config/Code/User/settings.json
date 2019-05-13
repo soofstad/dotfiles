@@ -9,6 +9,7 @@
     "files.autoSave": "afterDelay",
     "gitProjectManager.baseProjectsFolders": [
          "/home/stig/git",
+         "/home/stig/Git",
          "/private/stoo/Github",
          "/private/stoo/Gitlab",
     ]
