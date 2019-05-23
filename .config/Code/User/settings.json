@@ -12,5 +12,11 @@
          "/home/stig/Git",
          "/private/stoo/Github",
          "/private/stoo/Gitlab",
-    ]
+    ],
+    "window.menuBarVisibility": "toggle",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
 }

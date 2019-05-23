@@ -20,6 +20,7 @@ https://code.visualstudio.com/Download
 
 ``` bash
 EXTENSIONS=(
+  'esbenp.prettier-vscode'
   'adamvoss.vscode-languagetool'
   'AlanWalk.markdown-toc'
   'bajdzis.vscode-database'
