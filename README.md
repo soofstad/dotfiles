@@ -20,14 +20,16 @@ https://code.visualstudio.com/Download
 
 ``` bash
 EXTENSIONS=(
-  'esbenp.prettier-vscode'
   'adamvoss.vscode-languagetool'
+  'anseki.vscode-color'
   'AlanWalk.markdown-toc'
   'bajdzis.vscode-database'
   'bbenoist.vagrant'
   'daiyy.quick-html-previewer'
+  'DotJoshJohnson.xml'
   'dsznajder.es7-react-js-snippets'
   'eamodio.gitlens'
+  'esbenp.prettier-vscode'
   'felipecaputo.git-project-manager'
   'GrapeCity.gc-excelviewer'
   'ipedrazas.kubernetes-snippets'
@@ -40,6 +42,7 @@ EXTENSIONS=(
   'ms-python.python'
   'ms-vscode.azurecli'
   'PeterJausovec.vscode-docker'
+  'redhat.java'
   'redhat.vscode-yaml'
   'rogalmic.bash-debug'
   'shakram02.bash-beautify'
@@ -47,6 +50,13 @@ EXTENSIONS=(
   'skyapps.fish-vscode'
   'tht13.html-preview-vscode'
   'timonwong.shellcheck'
+  'VisualStudioExptTeam.vscodeintellicode'
+  'vscjava.vscode-java-debug'
+  'vscjava.vscode-java-dependency'
+  'vscjava.vscode-java-pack'
+  'vscjava.vscode-java-test'
+  'vscjava.vscode-maven'
+  'wesbos.theme-cobalt2'
   'xabikos.JavaScriptSnippets'
 )
 
@@ -88,7 +98,7 @@ https://lutris.net/downloads/
 add-apt-repository ppa:graphics-drivers/ppa
 ```
 
-See here for latest drivers:  
+See here for latest drivers:
 https://launchpad.net/~graphics-drivers/+archive/ubuntu/ppa
 
 The combination nvidia+kde+HiDPI displays, require the Font Setting _Force Fonts DPI: 96_ to be set.

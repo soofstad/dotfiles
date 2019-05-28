@@ -1,7 +1,7 @@
 {
     "breadcrumbs.enabled": true,
     "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "none",
+    "editor.renderWhitespace": "boundary",
     "editor.minimap.enabled": true,
     "explorer.confirmDelete": false,
     "git.autofetch": true,
@@ -13,10 +13,35 @@
          "/private/stoo/Github",
          "/private/stoo/Gitlab",
     ],
+    "terminal.integrated.shell.linux": "/usr/bin/fish",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "window.zoomLevel": 1,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.menuBarVisibility": "toggle",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.jsxSingleQuote": true,
-    "prettier.singleQuote": true,
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Cobalt2",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.enableExperiments": false,
+    "workbench.dialogs.useSimplified": true,
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.colorCustomizations": {
+        "[Cobalt2]": {
+            "tab.activeBackground": "#4e4764",
+            "gitDecoration.ignoredResourceForeground": "#4e5757",
+        }
+    },
+    "window.restoreFullscreen": true,
+    "yaml.format.enable": true,
+    "editor.multiCursorModifier": "alt",
+
 }
