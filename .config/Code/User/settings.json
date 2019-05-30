@@ -1,47 +1,49 @@
 {
-    "breadcrumbs.enabled": true,
-    "editor.renderControlCharacters": true,
-    "editor.renderWhitespace": "boundary",
-    "editor.minimap.enabled": true,
-    "explorer.confirmDelete": false,
-    "git.autofetch": true,
-    "explorer.confirmDragAndDrop": false,
-    "files.autoSave": "afterDelay",
-    "gitProjectManager.baseProjectsFolders": [
-         "/home/stig/git",
-         "/home/stig/Git",
-         "/private/stoo/Github",
-         "/private/stoo/Gitlab",
-    ],
-    "terminal.integrated.shell.linux": "/usr/bin/fish",
-    "diffEditor.ignoreTrimWhitespace": true,
-    "window.zoomLevel": 1,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "window.menuBarVisibility": "toggle",
-    "prettier.jsxSingleQuote": true,
-    "prettier.singleQuote": true,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.minimap.enabled": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        79
+    ],
+    "editor.suggestSelection": "first",
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "Cobalt2",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.enableExperiments": false,
+    "git.autofetch": true,
+    "gitProjectManager.baseProjectsFolders": [
+        "/home/stig/git",
+        "/home/stig/Git",
+        "/private/stoo/Github",
+        "/private/stoo/Gitlab"
+    ],
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "terminal.integrated.shell.linux": "/usr/bin/fish",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.menuBarVisibility": "toggle",
+    "window.restoreFullscreen": true,
+    "window.zoomLevel": 1,
+    "workbench.colorCustomizations": {
+        "[Cobalt2]": {
+            "gitDecoration.ignoredResourceForeground": "#4e5757",
+            "tab.activeBackground": "#4e4764"
+        }
+    },
+    "workbench.colorTheme": "Cobalt2",
     "workbench.dialogs.useSimplified": true,
+    "workbench.enableExperiments": false,
     "workbench.startupEditor": "none",
     "workbench.statusBar.feedback.visible": false,
     "workbench.tips.enabled": false,
-    "workbench.colorCustomizations": {
-        "[Cobalt2]": {
-            "tab.activeBackground": "#4e4764",
-            "gitDecoration.ignoredResourceForeground": "#4e5757",
-        }
-    },
-    "window.restoreFullscreen": true,
-    "yaml.format.enable": true,
-    "editor.multiCursorModifier": "alt",
-
+    "yaml.format.enable": true
 }
