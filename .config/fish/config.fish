@@ -8,3 +8,4 @@ alias grep='grep --color=auto'
 # U = universal, x = export
 set MY_VAR my value
 set -Ux PIPENV_VENV_IN_PROJECT 1
+set -Ux PATH /usr/local/bin/go/bin $PATH
