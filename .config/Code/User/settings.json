@@ -36,7 +36,8 @@
     "workbench.colorCustomizations": {
         "[Cobalt2]": {
             "gitDecoration.ignoredResourceForeground": "#4e5757",
-            "tab.activeBackground": "#4e4764"
+            "tab.activeBackground": "#4e4764",
+            "statusBar.debuggingForeground": "#908f9c"
         }
     },
     "workbench.colorTheme": "Cobalt2",
