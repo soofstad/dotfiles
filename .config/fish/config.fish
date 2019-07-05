@@ -9,3 +9,5 @@ alias grep='grep --color=auto'
 set MY_VAR my value
 set -Ux PIPENV_VENV_IN_PROJECT 1
 set -Ux PATH /usr/local/bin/go/bin $PATH
+# Unset the greeting
+set fish_greeting

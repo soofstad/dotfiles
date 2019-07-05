@@ -2,3 +2,8 @@
 	email = stigofstad@gmail.com
 	name = Stig Ofstad
 	signingkey = 648ACA0BAD64374A
+[alias]
+    co = checkout
+    st = status
+    b = branch
+    cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
