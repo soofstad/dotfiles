@@ -89,6 +89,11 @@ apt-get install nextcloud-client
 
 https://lutris.net/downloads/
 
+## MusicBee - Wine
+
+<https://getmusicbee.com/forum/index.php?topic=17074.msg157355#msg157355>  
+Note: 32-bit wine-prefix
+
 ## Nvidia drivers ppa
 
 ```bash
