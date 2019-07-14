@@ -1,15 +1,10 @@
 # TODO on fresh install
 
-## Delete and copy dotfiles
-
-Note: Do this in RecoveryMode.  Plasma caches some files in memory and will overwrite you changes.
-Remember to set correct owner of files.
-
 ## Install some software
 
 ``` bash
 apt-get update
-apt-get install -y git fish elisa filelight keepassxc latte-dock libreoffice terminator python3.7 zim
+apt-get install -y git fish filelight keepassxc latte-dock libreoffice terminator zim tree
 ```
 
 ## Visual Studio Code
