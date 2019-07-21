@@ -9,7 +9,7 @@ apt-get install -y git fish filelight keepassxc latte-dock libreoffice terminato
 
 ## Visual Studio Code
 
-https://code.visualstudio.com/Download
+<https://code.visualstudio.com/Download>
 
 ### Extensions
 
@@ -127,6 +127,10 @@ sudo add-apt-repository ppa:kubuntu-ppa/backports
 sudo apt update
 sudo apt full-upgrade
 ```
+
+## Plasma window decoration
+
+<https://github.com/ishovkun/SierraBreeze>
 
 ## Some Kwin Desktop Effects I like
 
