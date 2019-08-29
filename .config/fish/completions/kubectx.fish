@@ -1,1 +1,0 @@
-/opt/kubectx/completion/kubectx.fish
