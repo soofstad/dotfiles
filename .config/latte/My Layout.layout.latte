@@ -47,8 +47,8 @@ PreloadWeight=0
 SystrayContainmentId=90
 
 [Containments][1][ConfigDialog]
-DialogHeight=782
-DialogWidth=674
+DialogHeight=792
+DialogWidth=659
 
 [Containments][1][Configuration]
 PreloadWeight=0
@@ -62,6 +62,7 @@ glow3D=true
 highlightWindows=true
 iconMargin=10
 iconSize=32
+inConfigureAppletsMode=true
 launchersGroup=Global
 maxLength=60
 modifierClickAction=Close
@@ -218,6 +219,7 @@ onPrimary=true
 plugin=org.kde.latte.containment
 raiseOnActivityChange=false
 raiseOnDesktopChange=false
+settingsComplexity=4
 timerHide=700
 timerShow=200
 viewType=0
@@ -236,8 +238,8 @@ isInLatteDock=true
 launchers59=applications:firefox.desktop,applications:org.kde.dolphin.desktop
 
 [Containments][14][ConfigDialog]
-DialogHeight=720
-DialogWidth=600
+DialogHeight=1261
+DialogWidth=659
 
 [Containments][14][Configuration]
 PreloadWeight=0
@@ -252,12 +254,12 @@ durationTime=x1
 glow3D=true
 highlightWindows=true
 iconMargin=10
-iconSize=88
 inConfigureAppletsMode=true
 launchersGroup=Global
 maxLength=60
 modifierClickAction=Close
-panelSize=100
+panelSize=15
+panelTransparency=15
 reverseLinesPosition=true
 shadowOpacity=100
 shadowSize=50
@@ -267,6 +269,7 @@ showOnlyCurrentDesktop=true
 showToolTips=true
 showWindowActions=true
 solidPanel=true
+thickMargin=7
 threeColorsWindows=true
 useThemePanel=false
 zoomLevel=13
@@ -275,8 +278,13 @@ zoomLevel=13
 customType=
 enabled=true
 enabledForApplets=true
-padding=0.07999999821186066
+padding=0.07000000029802322
 type=org.kde.latte.default
+
+[Containments][14][Indicator][org.kde.latte.default][General]
+extraDotOnActive=true
+minimizedTaskColoredDifferently=true
+reversed=true
 
 [Containments][15]
 activityId=
@@ -364,7 +372,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][81][Applets][84][Configuration]
-PreloadWeight=92
+PreloadWeight=93
 
 [Containments][81][Applets][84][Configuration][ConfigDialog]
 DialogHeight=540
@@ -464,26 +472,21 @@ PreloadWeight=0
 DialogHeight=540
 DialogWidth=720
 
-[Containments][90][Applets][110]
-immutability=1
-plugin=org.kde.plasma.networkmanagement
-
 [Containments][90][Applets][110][Configuration]
-PreloadWeight=0
+PreloadWeight=42
 
-[Containments][90][Applets][92]
+[Containments][90][Applets][111]
 immutability=1
-plugin=org.kde.plasma.clipboard
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][90][Applets][111][Configuration]
+PreloadWeight=26
 
 [Containments][90][Applets][92][Configuration]
-PreloadWeight=0
-
-[Containments][90][Applets][94]
-immutability=1
-plugin=org.kde.kdeconnect
+PreloadWeight=42
 
 [Containments][90][Applets][94][Configuration]
-PreloadWeight=0
+PreloadWeight=42
 
 [Containments][90][Applets][96]
 immutability=1
@@ -508,7 +511,7 @@ DialogHeight=793
 DialogWidth=790
 
 [Containments][90][General]
-extraItems=org.kde.plasma.clipboard,org.kde.discovernotifier,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.volume,org.kde.plasma.battery
+extraItems=org.kde.discovernotifier,org.kde.plasma.notifications,org.kde.plasma.bluetooth,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.volume
 knownItems=org.kde.plasma.keyboardindicator,org.kde.plasma.clipboard,org.kde.plasma.vault,org.kde.discovernotifier,org.kde.plasma.notifications,org.kde.kdeconnect,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.volume
 showAllItems=true
 
@@ -517,8 +520,9 @@ activities=
 background=
 color=blue
 disableBordersForMaximizedWindows=false
-lastUsedActivity=75023f65-42fb-4d76-8b19-f1fa96367d9c
+lastUsedActivity=84530bd4-04ba-4bda-bea6-f951160e60aa
 launchers=applications:firefox.desktop,applications:org.kde.dolphin.desktop
+preferredForShortcutsTouched=false
 showInMenu=true
 textColor=fcfcfc
 version=2
