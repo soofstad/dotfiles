@@ -49,5 +49,7 @@
     "workbench.startupEditor": "none",
     "workbench.statusBar.feedback.visible": false,
     "workbench.tips.enabled": false,
-    "yaml.format.enable": true
+    "yaml.format.enable": true,
+    "markdown.extension.toc.githubCompatibility": true,
+    "markdown.extension.toc.updateOnSave": false
 }
