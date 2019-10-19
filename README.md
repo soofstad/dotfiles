@@ -33,6 +33,8 @@ apt-get install -y git \
      zim \
      tree \
      kmail \
+     vim \
+     nethogs \
      korganizer
 ```
 
