@@ -120,7 +120,7 @@ menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
 smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0,Regular
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
-widgetStyle=Breeze
+widgetStyle=breeze
 
 [Icons]
 Theme=breeze-dark
