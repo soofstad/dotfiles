@@ -82,7 +82,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][114][Applets][115][Configuration]
-PreloadWeight=15
+PreloadWeight=20
 
 [Containments][114][Applets][116]
 immutability=1
@@ -96,7 +96,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][114][Applets][117][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][114][Applets][119]
 immutability=1
@@ -149,7 +149,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][114][Applets][129][Configuration]
-PreloadWeight=18
+PreloadWeight=2
 
 [Containments][114][ConfigDialog]
 DialogHeight=660
@@ -421,6 +421,76 @@ threeColorsWindows=true
 useThemePanel=false
 zoomLevel=13
 
+[Containments][17]
+activityId=
+byPassWM=false
+dockWindowBehavior=true
+enableKWinEdges=true
+formfactor=3
+immutability=1
+isPreferredForShortcuts=false
+lastScreen=10
+location=5
+onPrimary=true
+plugin=org.kde.latte.containment
+raiseOnActivityChange=false
+raiseOnDesktopChange=false
+settingsComplexity=4
+timerHide=700
+timerShow=0
+viewType=0
+visibility=2
+wallpaperplugin=org.kde.image
+
+[Containments][17][Applets][57]
+immutability=1
+plugin=org.kde.plasma.kickoff
+
+[Containments][17][Applets][57][Configuration]
+PreloadWeight=100
+
+[Containments][17][Applets][57][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][17][Applets][57][Configuration][General]
+favoritesPortedToKAstats=true
+icon=start-here-kde-plasma
+
+[Containments][17][Applets][57][Shortcuts]
+global=Alt+F1
+
+[Containments][17][ConfigDialog]
+DialogHeight=1296
+DialogWidth=659
+
+[Containments][17][Configuration]
+PreloadWeight=0
+
+[Containments][17][General]
+appletOrder=57;56
+blurEnabled=false
+durationTime=None
+iconSize=25
+inConfigureAppletsMode=true
+maxLength=30
+panelPosition=Top
+panelShadows=false
+panelSize=5
+panelTransparency=40
+shrinkThickMargins=true
+splitterPosition=1
+splitterPosition2=2
+thickMargin=10
+zoomLevel=16
+
+[Containments][17][Indicator]
+customType=
+enabled=true
+enabledForApplets=true
+padding=0.07999999821186066
+type=org.kde.latte.default
+
 [Containments][81]
 activityId=
 byPassWM=false
@@ -447,7 +517,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][81][Applets][113][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 SystrayContainmentId=114
 
 [Containments][81][Applets][127]
@@ -455,25 +525,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][81][Applets][127][Configuration]
-PreloadWeight=53
-
-[Containments][81][Applets][84]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][81][Applets][84][Configuration]
-PreloadWeight=100
-
-[Containments][81][Applets][84][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][81][Applets][84][Configuration][General]
-favoritesPortedToKAstats=true
-icon=start-here-kde-plasma
-
-[Containments][81][Applets][84][Shortcuts]
-global=Alt+F1
+PreloadWeight=68
 
 [Containments][81][ConfigDialog]
 DialogHeight=1254
@@ -483,12 +535,13 @@ DialogWidth=659
 PreloadWeight=0
 
 [Containments][81][General]
-appletOrder=84;113;127
+appletOrder=113;127
 blurEnabled=false
 durationTime=None
 iconSize=25
 inConfigureAppletsMode=true
-panelPosition=10
+maxLength=30
+panelPosition=Right
 panelShadows=false
 panelSize=5
 panelTransparency=40
