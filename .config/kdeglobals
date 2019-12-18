@@ -106,11 +106,11 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=640,480
-History Items[$e]=file:$HOME/Apps,file:$HOME/speil/Music,file:$HOME/speil/Music,file:$HOME/Pictures/Wallpapers,file:$HOME/speil/Music
+DirSelectDialog Size=1024,673
+History Items[$e]=file:///ssd-pool,file:///ssd-pool/Music,file:$HOME/ssd,file:$HOME/speil/Music,file:$HOME/Apps,file:$HOME/speil/Music,file:$HOME/speil/Music,file:$HOME/Pictures/Wallpapers,file:$HOME/speil/Music
 
 [General]
-BrowserApplication[$e]=vivaldi-stable.desktop
+BrowserApplication=vivaldi-stable.desktop
 ColorScheme=Breeze Dark
 Name=Breeze Dark
 TerminalApplication[$e]=/usr/bin/terminator
@@ -140,9 +140,10 @@ StartDragDist=4
 StartDragTime=500
 WheelScrollLines=3
 contrast=4
-widgetStyle=Breeze
+widgetStyle=breeze
 
 [KFileDialog Settings]
+Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=false
 Decoration position=0

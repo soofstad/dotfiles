@@ -33,6 +33,8 @@ apt-get install -y git \
      zim \
      tree \
      kmail \
+     vim \
+     nethogs \
      korganizer
 ```
 
@@ -127,6 +129,10 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 sudo apt-get update && sudo apt-get install -y yarn
 ```
 
+## OWASP Zap
+
+<https://software.opensuse.org/download.html?project=home%3Acabelo&package=owasp-zap>
+
 ## Vivaldi
 
 <https://vivaldi.com/download/>
@@ -189,7 +195,7 @@ sudo apt full-upgrade
 
 ## Plasma window decoration
 
-<https://github.com/ishovkun/SierraBreeze>
+[<https://github.com/ishovkun/SierraBreeze>](https://github.com/kupiqu/SierraBreezeEnhanced)
 
 ## Some Kwin Desktop Effects I like
 

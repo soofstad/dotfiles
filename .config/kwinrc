@@ -20,10 +20,10 @@ Id_1=3e74085c-e50c-4855-8a7a-d982599aa644
 Id_2=a89e1382-1928-410a-82ef-b8d3909ba6d9
 Id_3=0f21ca32-43af-4b30-8d9a-c758f47da8f3
 Id_4=d59d3a0f-39bf-400d-a0d6-454ffc9baed6
-Name_1=GENERAL
-Name_2=GAMES
-Name_3=FILM
-Name_4=MUSIK
+Name_1=General
+Name_2=Musikk
+Name_3=Social
+Name_4=Diverse
 Number=4
 Rows=2
 
@@ -89,17 +89,20 @@ CommandWindowWheel=Scroll
 
 [Plugins]
 coverswitchEnabled=true
-cubeslideEnabled=false
+cubeslideEnabled=true
 desktopchangeosdEnabled=true
 flipswitchEnabled=true
 glideEnabled=true
 highlightwindowEnabled=true
-kwin4_effect_fadedesktopEnabled=true
+kwin4_effect_dimscreenEnabled=true
+kwin4_effect_eyeonscreenEnabled=true
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_scaleEnabled=true
 kwin4_effect_squashEnabled=false
+kwin4_effect_windowapertureEnabled=false
 magiclampEnabled=true
 slideEnabled=false
+slidebackEnabled=true
 windowgeometryEnabled=false
 wobblywindowsEnabled=true
 
@@ -178,9 +181,10 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=50
 
 [org.kde.kdecoration2]
-BorderSize=Normal
+BorderSize=None
 ButtonsOnLeft=MS
-ButtonsOnRight=HIAX
+ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Breezemite_dark_OPT
+ShowToolTips=true
+library=org.kde.sierrabreeze
+theme=Sierra Breeze
