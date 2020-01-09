@@ -1,0 +1,32 @@
+[1]
+Description=Application settings for code
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=2
+wmclass=code
+wmclasscomplete=false
+wmclassmatch=1
+
+[2]
+Description=Application settings for elisa
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=2
+wmclass=elisa
+wmclasscomplete=false
+wmclassmatch=1
+
+[3]
+Description=Application settings for vivaldi-stable
+clientmachine=localhost
+clientmachinematch=0
+noborder=true
+noborderrule=2
+wmclass=vivaldi-stable
+wmclasscomplete=false
+wmclassmatch=1
+
+[General]
+count=3

@@ -37,6 +37,7 @@ outlineWidth=1
 19=eDP-1
 20=eDP-1-1
 21=DP-3
+22=DisplayPort-0
 
 [UniversalSettings]
 badges3DStyle=false

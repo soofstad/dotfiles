@@ -182,9 +182,9 @@ WindowSnapZone=50
 
 [org.kde.kdecoration2]
 BorderSize=None
-ButtonsOnLeft=MS
+ButtonsOnLeft=MF
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
-library=org.kde.sierrabreeze
-theme=Sierra Breeze
+library=org.kde.sierrabreezeenhanced
+theme=Sierra Breeze Enhanced

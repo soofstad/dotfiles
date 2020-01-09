@@ -2,6 +2,7 @@
 _k_friendly_name=Activity Manager
 switch-to-activity-3947b4f5-aab9-43c7-acd7-7971bf142941=none,none,Switch to activity "Work"
 switch-to-activity-84530bd4-04ba-4bda-bea6-f951160e60aa=none,none,Switch to activity "Default"
+switch-to-activity-8863647e-1131-4dcb-b600-c747f4612e8b=none,none,Switch to activity "Default"
 
 [KDE Keyboard Layout Switcher]
 Switch to Next Keyboard Layout=Ctrl+Alt+K,Ctrl+Alt+K,Switch to Next Keyboard Layout
@@ -24,13 +25,13 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=KDE Daemon
-{029b9c93-db6c-4819-911a-74d2c7e678cf}=,none,Launch Konsole
-{634fc79e-64e8-4859-93ec-287965030e8b}=,none,Take Full Screen Screenshot
-{81fbcf90-2904-4ebb-88b4-9e0aa5fb137f}=,none,Take Active Window Screenshot
-{9cd6807c-8d64-4165-b788-3955f540b07c}=,none,Start Screenshot Tool
-{c610c819-2c3a-4f09-92e5-1fe1b0030ca4}=,none,Take Rectangular Region Screenshot
+{26b07564-0003-4452-9671-fda5d5fe06eb}=Shift+Print,none,Take Full Screen Screenshot
+{3302303b-0c99-44f6-9f76-12f714469797}=Print,none,Start Screenshot Tool
+{5fe6d0be-e133-41d9-8f8e-c7cccc9372de}=Meta+T,none,Terminator
+{8800cdab-d255-4134-a1b2-088104a92d7c}=Meta+Print,none,Take Active Window Screenshot
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
-{e9649d17-4c97-4eed-b155-9064dceb29a5}=Meta+T,none,Terminator
+{e091ef93-27f7-4892-8cf8-6d672c683003}=Meta+Shift+Print,none,Take Rectangular Region Screenshot
+{fa3b487e-73e2-445d-85a5-0b42b84830b7}=Ctrl+Alt+T,none,Launch Konsole
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -235,7 +236,7 @@ activate entry 6=,Meta+6,Activate Entry 6
 activate entry 7=,Meta+7,Activate Entry 7
 activate entry 8=,Meta+8,Activate Entry 8
 activate entry 9=,Meta+9,Activate Entry 9
-activate widget 84=Alt+F1,none,Activate Application Launcher Widget
+activate widget 57=Alt+F1,none,Activate Application Launcher Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item

@@ -35,7 +35,8 @@ apt-get install -y git \
      kmail \
      vim \
      nethogs \
-     korganizer
+     korganizer \
+     nfs-common
 ```
 
 ## Visual Studio Code
@@ -154,6 +155,10 @@ apt-get install nextcloud-client
 <https://getmusicbee.com/forum/index.php?topic=17074.msg157355#msg157355>  
 Note: 32-bit wine-prefix
 
+## Mesa drivers ppa (AMDGPU)
+This is the steam experimental which builds regulary from Git, and contains their own shader compiler(ACO)
+<https://steamcommunity.com/app/221410/discussions/0/1640915206474070669/>
+
 ## Nvidia drivers ppa
 
 ```bash
@@ -195,7 +200,7 @@ sudo apt full-upgrade
 
 ## Plasma window decoration
 
-[<https://github.com/ishovkun/SierraBreeze>](https://github.com/kupiqu/SierraBreezeEnhanced)
+[<https://github.com/kupiqu/SierraBreezeEnhanced>](https://github.com/kupiqu/SierraBreezeEnhanced)
 
 ## Some Kwin Desktop Effects I like
 
