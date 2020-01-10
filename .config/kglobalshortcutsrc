@@ -26,11 +26,12 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 [khotkeys]
 _k_friendly_name=KDE Daemon
 {26b07564-0003-4452-9671-fda5d5fe06eb}=Shift+Print,none,Take Full Screen Screenshot
-{3302303b-0c99-44f6-9f76-12f714469797}=Print,none,Start Screenshot Tool
+{3302303b-0c99-44f6-9f76-12f714469797}=,none,Start Screenshot Tool
 {5fe6d0be-e133-41d9-8f8e-c7cccc9372de}=Meta+T,none,Terminator
 {8800cdab-d255-4134-a1b2-088104a92d7c}=Meta+Print,none,Take Active Window Screenshot
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Search
-{e091ef93-27f7-4892-8cf8-6d672c683003}=Meta+Shift+Print,none,Take Rectangular Region Screenshot
+{d2483424-7a3a-48a4-a4e2-1891578b1a4e}=Meta+E,none,FileExplorer
+{e091ef93-27f7-4892-8cf8-6d672c683003}=Print,none,Take Rectangular Region Screenshot
 {fa3b487e-73e2-445d-85a5-0b42b84830b7}=Ctrl+Alt+T,none,Launch Konsole
 
 [kmix]
@@ -60,7 +61,7 @@ Lock Session=Meta+L,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
 Log Out=Ctrl+Alt+Del,none,Log Out
 Log Out Without Confirmation=Ctrl+Alt+Shift+Del,none,Log Out Without Confirmation
 Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp,none,Reboot Without Confirmation
-_k_friendly_name=ksmserver
+_k_friendly_name=System Settings Module
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activate Window Demanding Attention
@@ -265,7 +266,7 @@ repeat_action=,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show dock settings=,Meta+A,Show Dock Settings
 show latte dock=Meta+`,Meta+`,Show Dock
 show latte global settings=,Meta+W,Show Latte Global Settings
-show latte universal settings=Meta+E,Meta+E,Show Latte Settings
+show latte universal settings=,Meta+E,Show Latte Settings
 show latte view=,Meta+`,Show Latte Dock/Panel
 show layout settings=Meta+W,Meta+W,Show Layout Settings
 show view settings=Meta+A,Meta+A,Cycle Through Dock/Panel Settings Windows
