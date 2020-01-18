@@ -26,7 +26,6 @@
   zoom_out = <Ctrl>minus
 [profiles]
   [[default]]
-    use_custom_command = True
     custom_command = /usr/bin/fish
     background_color = "#292b29"
     background_darkness = 0.95
@@ -41,4 +40,5 @@
     scrollbar_position = hidden
     show_titlebar = False
     update_records = False
+    use_custom_command = True
     use_system_font = False

@@ -1,7 +1,7 @@
 <!DOCTYPE gui>
-<gui name="dolphin" translationDomain="kxmlgui5" version="21">
+<gui translationDomain="kxmlgui5" version="27" name="dolphin">
  <MenuBar alreadyVisited="1">
-  <Menu name="file" alreadyVisited="1" noMerge="1">
+  <Menu name="file" noMerge="1" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;File</text>
    <Action name="file_new"/>
    <Separator weakSeparator="1"/>
@@ -10,6 +10,8 @@
    <Action name="new_tab"/>
    <Action name="file_close"/>
    <Action name="undo_close_tab"/>
+   <Separator/>
+   <Action name="add_to_places"/>
    <Separator/>
    <Action name="renamefile"/>
    <Action name="movetotrash"/>
@@ -23,7 +25,7 @@
    <Separator weakSeparator="1"/>
    <Action name="file_quit"/>
   </Menu>
-  <Menu name="edit" alreadyVisited="1" noMerge="1">
+  <Menu name="edit" noMerge="1" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Edit</text>
    <Action name="edit_undo"/>
    <Separator weakSeparator="1"/>
@@ -38,13 +40,17 @@
    <Action name="edit_select_all"/>
    <Action name="invert_selection"/>
   </Menu>
-  <Menu name="view" alreadyVisited="1" noMerge="1">
+  <Menu name="view" noMerge="1" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;View</text>
    <Action name="view_zoom_in"/>
    <Action name="view_zoom_out"/>
    <Separator weakSeparator="1"/>
    <Action name="view_redisplay"/>
    <Separator weakSeparator="1"/>
+   <Action name="view_zoom_in"/>
+   <Action name="view_zoom_reset"/>
+   <Action name="view_zoom_out"/>
+   <Separator/>
    <Action name="sort"/>
    <Action name="view_mode"/>
    <Action name="additional_info"/>
@@ -58,34 +64,36 @@
    <Action name="stop"/>
    <Separator/>
    <Action name="panels"/>
-   <Menu name="location_bar" noMerge="1">
-    <text translationDomain="dolphin" context="@title:menu">Location Bar</text>
+   <Menu icon="edit-select-text" name="location_bar" noMerge="1">
+    <text context="@title:menu" translationDomain="dolphin">Location Bar</text>
     <Action name="editable_location"/>
     <Action name="replace_location"/>
    </Menu>
    <Separator/>
    <Action name="view_properties"/>
   </Menu>
-  <Menu name="go" alreadyVisited="1" noMerge="1">
+  <Menu name="go" noMerge="1" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Go</text>
    <Action name="go_up"/>
    <Action name="go_back"/>
    <Action name="go_forward"/>
    <Action name="go_home"/>
    <Separator weakSeparator="1"/>
+   <Action name="bookmarks"/>
    <Action name="closed_tabs"/>
   </Menu>
   <Separator weakSeparator="1"/>
   <Separator weakSeparator="1"/>
   <Separator weakSeparator="1"/>
-  <Menu name="tools" alreadyVisited="1" noMerge="1">
+  <Separator weakSeparator="1"/>
+  <Menu name="tools" noMerge="1" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Tools</text>
    <Action name="show_filter_bar"/>
    <Action name="open_terminal"/>
    <Action name="compare_files"/>
    <Action name="change_remote_encoding"/>
   </Menu>
-  <Menu name="settings" alreadyVisited="1" noMerge="1">
+  <Menu name="settings" noMerge="1" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Settings</text>
    <Action name="options_show_menubar"/>
    <Merge name="StandardToolBarMenuHandler"/>
@@ -96,7 +104,7 @@
    <Action name="options_configure"/>
   </Menu>
   <Separator weakSeparator="1"/>
-  <Menu name="help" alreadyVisited="1" noMerge="1">
+  <Menu name="help" noMerge="1" alreadyVisited="1">
    <text translationDomain="kxmlgui5">&amp;Help</text>
    <Action name="help_contents"/>
    <Action name="help_whats_this"/>
@@ -111,8 +119,8 @@
    <Action name="help_about_kde"/>
   </Menu>
  </MenuBar>
- <ToolBar name="mainToolBar" alreadyVisited="1" noMerge="1">
-  <text translationDomain="dolphin" context="@title:menu">Main Toolbar</text>
+ <ToolBar name="mainToolBar" noMerge="1" alreadyVisited="1">
+  <text context="@title:menu" translationDomain="dolphin">Main Toolbar</text>
   <Action name="go_back"/>
   <Action name="go_forward"/>
   <Separator name="separator_0"/>
@@ -120,16 +128,17 @@
   <Action name="compact"/>
   <Action name="details"/>
   <Separator name="separator_1"/>
-  <Action name="show_places_panel"/>
   <Action name="options_show_menubar"/>
   <Action name="show_hidden_files"/>
+  <Action name="edit_find"/>
+  <Action name="show_places_panel"/>
   <Action name="show_terminal_panel"/>
   <Separator name="separator_2"/>
-  <Action name="show_filter_bar"/>
   <Action name="create_dir"/>
   <Action name="show_preview"/>
   <Action name="split_view"/>
-  <Action name="split_stash"/>
+  <Spacer name="spacer_0"/>
+  <Action name="go_home"/>
  </ToolBar>
  <State name="new_file">
   <disable>
@@ -168,18 +177,22 @@
   </disable>
  </State>
  <ActionProperties scheme="Default">
-  <Action name="go_back" priority="0"/>
-  <Action name="go_forward" priority="0"/>
-  <Action name="go_up" priority="0"/>
-  <Action name="go_home" priority="0"/>
-  <Action name="stop" priority="0"/>
-  <Action name="icons" priority="0"/>
-  <Action name="compact" priority="0"/>
-  <Action name="details" priority="0"/>
-  <Action name="view_zoom_in" priority="0"/>
-  <Action name="view_zoom_out" priority="0"/>
-  <Action name="edit_cut" priority="0"/>
-  <Action name="edit_copy" priority="0"/>
-  <Action name="edit_paste" priority="0"/>
+  <Action priority="0" name="view_zoom_reset"/>
+  <Action priority="0" name="toggle_search"/>
+  <Action priority="0" name="compact"/>
+  <Action priority="0" name="details"/>
+  <Action priority="0" name="edit_copy"/>
+  <Action priority="0" shortcut="Ctrl+X" name="edit_cut"/>
+  <Action priority="0" name="edit_paste"/>
+  <Action priority="0" name="go_back"/>
+  <Action priority="0" name="go_forward"/>
+  <Action priority="0" name="go_home"/>
+  <Action priority="0" name="go_up"/>
+  <Action priority="0" name="icons"/>
+  <Action priority="0" name="stop"/>
+  <Action priority="0" name="view_zoom_in"/>
+  <Action priority="0" name="view_zoom_out"/>
+  <Action shortcut="Ctrl+F; /" name="show_filter_bar"/>
+  <Action shortcut="" name="edit_find"/>
  </ActionProperties>
 </gui>

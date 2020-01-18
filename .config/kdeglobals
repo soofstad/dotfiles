@@ -106,8 +106,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=1024,673
-History Items[$e]=file:///ssd-pool,file:///ssd-pool/Music,file:$HOME/ssd,file:$HOME/speil/Music,file:$HOME/Apps,file:$HOME/speil/Music,file:$HOME/speil/Music,file:$HOME/Pictures/Wallpapers,file:$HOME/speil/Music
+DirSelectDialog Size=844,598
+History Items[$e]=file:$HOME/speil/Music,file:$HOME/Nextcloud/Vivaldi_css,file:///ssd-pool,file:///ssd-pool/Music,file:$HOME/ssd,file:$HOME/speil/Music,file:$HOME/Apps,file:$HOME/speil/Music,file:$HOME/speil/Music,file:$HOME/Pictures/Wallpapers,file:$HOME/speil/Music
 
 [General]
 BrowserApplication=vivaldi-stable.desktop
@@ -132,7 +132,7 @@ Theme=breeze-dark
 ColorScheme=Breeze
 DoubleClickInterval=400
 LookAndFeelPackage=org.kde.breezedark.desktop
-ShowDeleteCommand=false
+ShowDeleteCommand=true
 ShowIconsInMenuItems=false
 ShowIconsOnPushButtons=false
 SingleClick=false
@@ -166,7 +166,7 @@ listViewIconSize=40
 Dialog Size=600,480
 
 [PreviewSettings]
-MaximumRemoteSize=0
+MaximumRemoteSize=5242880
 
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon

@@ -51,5 +51,6 @@
     "workbench.tips.enabled": false,
     "yaml.format.enable": true,
     "markdown.extension.toc.githubCompatibility": true,
-    "markdown.extension.toc.updateOnSave": false
+    "markdown.extension.toc.updateOnSave": false,
+    "python.jediEnabled": false
 }

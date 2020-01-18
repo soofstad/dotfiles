@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize
 
 [Compositing]
 AnimationSpeed=3
@@ -101,8 +101,12 @@ kwin4_effect_scaleEnabled=true
 kwin4_effect_squashEnabled=false
 kwin4_effect_windowapertureEnabled=false
 magiclampEnabled=true
+minimizeallEnabled=false
 slideEnabled=false
 slidebackEnabled=true
+sticky-window-snappingEnabled=true
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
 windowgeometryEnabled=false
 wobblywindowsEnabled=true
 
@@ -182,6 +186,7 @@ WindowSnapZone=50
 
 [org.kde.kdecoration2]
 BorderSize=None
+BorderSizeAuto=false
 ButtonsOnLeft=MF
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
