@@ -4,6 +4,12 @@
 alias ll='ls -lah'
 alias grep='grep --color=auto'
 
+# Key-bindings
+# ctrl+left
+bind [5D backward-word
+# ctrl+right
+bind [5C forward-word
+
 # Environment Variables
 # U = universal, x = export, g = global
 set -gx PIPENV_VENV_IN_PROJECT 1
