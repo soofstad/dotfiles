@@ -1,0 +1,9 @@
+[NotebookList]
+Default=
+1=~/Nextcloud/ZimNotes
+
+[Notebook 1]
+uri=~/Nextcloud/ZimNotes
+name=ZimNotes
+interwiki=None
+icon=None
