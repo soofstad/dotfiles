@@ -25,6 +25,9 @@ apt-get update
 apt-get install -y git \
      fish \
      curl \
+     wireguard \
+     docker.io \
+     docker-compose \
      nextcloud-desktop \
      filelight \
      keepassxc \
@@ -33,10 +36,10 @@ apt-get install -y git \
      terminator \
      zim \
      tree \
-     kmail \
+     htop \
+     nmap \
      vim \
      nethogs \
-     korganizer \
      nfs-common
 
 snap install insomnia
