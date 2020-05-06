@@ -7,7 +7,6 @@
 - [Node](#node)
 - [Yarn](#yarn)
 - [Vivaldi](#vivaldi)
-- [Nextcloud](#nextcloud)
 - [Lutris](#lutris)
 - [MusicBee - Wine](#musicbee---wine)
 - [Nvidia drivers ppa](#nvidia-drivers-ppa)
@@ -25,6 +24,11 @@
 apt-get update
 apt-get install -y git \
      fish \
+     curl \
+     wireguard \
+     docker.io \
+     docker-compose \
+     nextcloud-desktop \
      filelight \
      keepassxc \
      latte-dock \
@@ -32,11 +36,13 @@ apt-get install -y git \
      terminator \
      zim \
      tree \
-     kmail \
+     htop \
+     nmap \
      vim \
      nethogs \
-     korganizer \
      nfs-common
+
+snap install insomnia
 ```
 
 ## Visual Studio Code
@@ -137,14 +143,6 @@ sudo apt-get update && sudo apt-get install -y yarn
 ## Vivaldi
 
 <https://vivaldi.com/download/>
-
-## Nextcloud
-
-```bash
-add-apt-repository ppa:nextcloud-devs/client
-apt-get update
-apt-get install nextcloud-client
-```
 
 ## Lutris
 
