@@ -30,6 +30,7 @@ apt-get install -y git \
      docker-compose \
      nextcloud-desktop \
      filelight \
+     elisa \
      keepassxc \
      latte-dock \
      libreoffice \
