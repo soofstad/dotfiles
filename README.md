@@ -41,7 +41,8 @@ apt-get install -y git \
      nmap \
      vim \
      nethogs \
-     nfs-common
+     nfs-common \
+     micro
 
 snap install insomnia
 ```
