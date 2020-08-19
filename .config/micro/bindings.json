@@ -1,5 +1,6 @@
 {
     "Alt-/": "lua:comment.comment",
     "CtrlUnderscore": "lua:comment.comment",
-    "Alt-CtrlE": "CommandMode"
+    "Alt-CtrlE": "CommandMode",
+    "Alt-CtrlF": "Find"
 }
