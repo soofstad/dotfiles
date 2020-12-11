@@ -3,6 +3,7 @@
 # Aliases
 alias ll='ls -lah'
 alias grep='grep --color=auto'
+alias ipi='ip -br -c addr show'
 
 # Key-bindings
 # ctrl+left
@@ -21,3 +22,6 @@ set fish_greeting
 set -gx PYENV_ROOT $HOME/.pyenv
 set -gx PATH $PATH $PYENV_ROOT/bin
 source (pyenv init - | psub)
+
+# Dotnet
+set -gx DOTNET_CLI_TELEMETRY_OPTOUT 1

@@ -6,6 +6,7 @@
     co = checkout
     st = status
     b = branch
+    br = branch -a
     com = commit -a
     p = push
     rbl = rebase -i HEAD~2
@@ -15,4 +16,3 @@
     editor = micro
 [log]
     date = relative
-
