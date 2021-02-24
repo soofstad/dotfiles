@@ -2,25 +2,20 @@
 DefaultProfile=Profile 4.profile
 
 [Favorite Profiles]
-Favorites=
+Favorites=StooKa.profile
 
 [KonsoleWindow]
 RemoveWindowTitleBarAndFrame=true
 ShowMenuBarByDefault=false
 
 [MainWindow]
-DisplayPort-0 Height 1440=1440
-DisplayPort-0 Width 2560=1280
-DisplayPort-0 XPosition=1280
-DisplayPort-0 YPosition=0
-Height 1440=1408
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABQAAAAWgAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAACgAAAAWgAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
-Width 2560=1280
 
 [Notification Messages]
 CloseAllEmptyTabs=true
+CloseAllTabs=true
 
 [SplitView]
 SplitViewVisibility=AlwaysHideSplitHeader

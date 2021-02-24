@@ -1,12 +1,15 @@
-[PlasmaTransientsConfig]
-enableKWinEdges=true
-raiseOnActivityChange=false
-raiseOnDesktopChange=false
-timerHide=700
-timerShow=200
+[PlasmaRunnerManager]
+LaunchCounts=2 services_applications:org.kde.filelight.desktop,3 services_applications:org.remmina.Remmina.desktop,2 shell_code,1 services_applications:pgadmin4.desktop,1 baloosearch_/home/stig/temp/droidcam,1 services_pavucontrol-qt.desktop,1 baloosearch_/home/stig/temp/myWebApp/wwwroot/lib/bootstrap,1 services_org.kde.kdeconnect.app.desktop,24 services_applications:torbrowser.desktop,9 services_applications:org.keepassxc.KeePassXC.desktop,1 services_applications:audacity.desktop,1 services_applications:kcm_keys.desktop,13 services_code.desktop,1 services_applications:org.kde.kdevelop.desktop,1 services_applications:debian-xterm.desktop,1 services_applications:kcm_colors.desktop,3 services_org.kde.discover.desktop,4 services_applications:signal-desktop.desktop,12 services_applications:insomnia.desktop,2 services_firefox.desktop,1 services_applications:kcm_pulseaudio.desktop,1 services_nextcloud.desktop,3 services_vlc.desktop,1 services_applications:jetbrains-toolbox.desktop,1 services_applications:org.gnome.Nautilus.desktop,1 shell_teams,22 services_applications:org.kde.elisa.desktop,95 services_applications:code.desktop,2 services_applications:steam.desktop,62 services_applications:vlc.desktop,5 services_org.kde.kcalc.desktop,5 services_applications:jetbrains-rider.desktop,1 services_org.kde.muon.desktop,7 services_teams.desktop,2 services_jetbrains-toolbox.desktop,1 baloosearch_/home/stig/Nextcloud/Hus/Selbuhus/Kjeller-v2.0.png,38 services_applications:zim.desktop,1 services_org.kde.kinfocenter.desktop,1 services_applications:gimp.desktop,1 services_applications:componentchooser.desktop,12 services_jetbrains-pycharm.desktop,1 services_applications:jetbrains-idea.desktop,8 services_applications:Hades.desktop,4 shell_discord,6 services_insomnia.desktop,11 services_applications:net.lutris.Lutris.desktop,1 services_org.kde.kate.desktop,1 shell_elisa,1 services_vivaldi-stable.desktop,6 services_applications:org.kde.ksysguard.desktop,5 services_applications:org.kde.kinfocenter.desktop,1 services_applications:vivaldi-stable.desktop,55 shell_droidcam,3 services_zim.desktop,1 services_applications:update-manager.desktop,2 baloosearch_/home/stig/Apps/TeamSpeak3-Client-linux_amd64,12 services_applications:firefox.desktop,1 services_applications:kcm_kdeconnect.desktop,1 services_applications:org.kde.kdeconnect.app.desktop,5 services_applications:org.kde.discover.desktop,4 services_applications:org.kde.partitionmanager.desktop,2 services_applications:org.kde.konsole.desktop,1 baloosearch_/home/stig/Nextcloud/Documents/ITSec/CIS_Google_Chrome_Benchmark_v1.3.0.pdf,1 services_autostart.desktop,4 services_torbrowser.desktop,1 services_applications:easytag.desktop,1 services_net.lutris.Lutris.desktop,24 services_applications:jetbrains-pycharm.desktop,1 services_org.kde.konsole.desktop,107 services_applications:teams.desktop,19 services_applications:slack.desktop,1 baloosearch_/home/stig/git/sdp-flux,62 services_applications:boot-to-windows.desktop,3 services_applications:software-properties-gtk.desktop,3 services_google-chrome.desktop,1 services_applications:about-distro.desktop,1 services_org.kde.yakuake.desktop,6 services_audacity.desktop,13 services_applications:org.kde.kcalc.desktop,2 services_slack.desktop,1 services_applications:autostart.desktop,24 services_applications:google-chrome.desktop,16 services_applications:pavucontrol-qt.desktop,6 services_org.keepassxc.KeePassXC.desktop,4 services_org.kde.elisa.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaThemeExtended]
+outlineWidth=1
 
 [ScreenConnectors]
 10=DisplayPort-0
+11=HDMI-A-0
+12=DP-1
+13=HDMI-1
 
 [UniversalSettings]
 badges3DStyle=false
@@ -22,4 +25,4 @@ metaPressAndHoldEnabled=true
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
-version=1
+version=2

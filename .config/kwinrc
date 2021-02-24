@@ -1,8 +1,7 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed
 
 [Compositing]
-AnimationSpeed=3
 Backend=OpenGL
 Enabled=true
 GLCore=true
@@ -21,9 +20,9 @@ Id_2=a89e1382-1928-410a-82ef-b8d3909ba6d9
 Id_3=0f21ca32-43af-4b30-8d9a-c758f47da8f3
 Id_4=d59d3a0f-39bf-400d-a0d6-454ffc9baed6
 Name_1=General
-Name_2=Musikk
+Name_2=Music
 Name_3=Social
-Name_4=Diverse
+Name_4=Other
 Number=4
 Rows=2
 
@@ -94,6 +93,7 @@ desktopchangeosdEnabled=true
 flipswitchEnabled=true
 glideEnabled=true
 highlightwindowEnabled=true
+kwin-script-tilingEnabled=false
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_eyeonscreenEnabled=true
 kwin4_effect_maximizeEnabled=false
@@ -131,7 +131,7 @@ DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=1
 HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
+LayoutName=present_windows
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0

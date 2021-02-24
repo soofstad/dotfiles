@@ -1,5 +1,5 @@
 [$Version]
-update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,filepicker.upd:filepicker-remove-old-previews-entry
+update_info=fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,filepicker.upd:filepicker-remove-old-previews-entry,icons_remove_effects.upd:IconsRemoveEffects,kwin.upd:animation-speed,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
 
 [ColorEffects:Disabled]
 Color=56,56,56
@@ -106,8 +106,12 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME/speil/Music,file:$HOME/Nextcloud/Vivaldi_css,file:///ssd-pool,file:///ssd-pool/Music,file:$HOME/ssd,file:$HOME/speil/Music,file:$HOME/Apps,file:$HOME/speil/Music,file:$HOME/speil/Music,file:$HOME/Pictures/Wallpapers,file:$HOME/speil/Music
+DirSelectDialog Size=809,598
+History Items[$e]=file:$HOME/speil/Music,file:$HOME/Nextcloud/Vivaldi_css,file:$HOME/speil/Music,file:$HOME/Nextcloud/Vivaldi_css,file:///ssd-pool,file:///ssd-pool/Music,file:$HOME/ssd,file:$HOME/speil/Music,file:$HOME/Apps,file:$HOME/speil/Music,file:$HOME/speil/Music,file:$HOME/Pictures/Wallpapers,file:$HOME/speil/Music
+
+[Emoticons]
+emoticonsTheme=EmojiOne
+parseMode=2
 
 [General]
 BrowserApplication=vivaldi-stable.desktop
@@ -129,6 +133,7 @@ widgetStyle=Breeze
 Theme=breeze-dark
 
 [KDE]
+AnimationDurationFactor=1.000000
 ColorScheme=Breeze
 DoubleClickInterval=400
 LookAndFeelPackage=org.kde.breezedark.desktop
@@ -140,7 +145,7 @@ StartDragDist=4
 StartDragTime=500
 WheelScrollLines=3
 contrast=4
-widgetStyle=breeze
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -158,12 +163,12 @@ Show hidden files=false
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
-Speedbar Width=111
+Speedbar Width=201
 View Style=Simple
 listViewIconSize=40
 
 [KShortcutsDialog Settings]
-Dialog Size=600,480
+Dialog Size=1034,748
 
 [PreviewSettings]
 MaximumRemoteSize=5242880

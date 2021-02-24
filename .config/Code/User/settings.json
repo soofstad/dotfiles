@@ -53,5 +53,15 @@
     "yaml.format.enable": true,
     "markdown.extension.toc.githubCompatibility": true,
     "markdown.extension.toc.updateOnSave": false,
-    "python.jediEnabled": false
+    "python.jediEnabled": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.languageServer": "Pylance",
+    "debug.onTaskErrors": "showErrors",
+    "[yaml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "go.useLanguageServer": true,
+    "todo-tree.tree.showScanModeButton": false
 }
