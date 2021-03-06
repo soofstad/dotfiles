@@ -25,3 +25,6 @@ source (pyenv init - | psub)
 
 # Dotnet
 set -gx DOTNET_CLI_TELEMETRY_OPTOUT 1
+
+# Pulumi
+set -gx PATH $PATH $HOME/.pulumi/bin

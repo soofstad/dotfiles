@@ -1,5 +1,5 @@
 [Desktop Entry]
-DefaultProfile=Profile 4.profile
+DefaultProfile=StooKa.profile
 
 [Favorite Profiles]
 Favorites=StooKa.profile
@@ -9,13 +9,26 @@ RemoveWindowTitleBarAndFrame=true
 ShowMenuBarByDefault=false
 
 [MainWindow]
+DP-1 Height 2560x1440=1440
+DP-1 Width 2560x1440=1280
+DP-1 Window-Maximized 2560x1440=true
+DisplayPort-0 HDMI-A-0 Height 2560x1440=698
+DisplayPort-0 HDMI-A-0 Width 2560x1440=2560
+DisplayPort-0 HDMI-A-0 XPosition 2560x1440=0
+DisplayPort-0 HDMI-A-0 YPosition 2560x1440=0
+DisplayPort-0 Height 2560x1440=1440
+DisplayPort-0 Width 2560x1440=1280
+DisplayPort-0 Window-Maximized 2560x1440=true
+DisplayPort-0 XPosition 2560x1440=0
+DisplayPort-0 YPosition 2560x1440=0
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAACgAAAAWgAAAABAAAAAQAAAAIAAAACPwAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAHgAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 
 [Notification Messages]
 CloseAllEmptyTabs=true
 CloseAllTabs=true
+ShowPasteHugeTextWarning=false
 
 [SplitView]
 SplitViewVisibility=AlwaysHideSplitHeader

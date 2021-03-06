@@ -3,7 +3,7 @@ FontWeight=50
 PreviewSize=16
 
 [Desktop Entry]
-DefaultProfile=Profile 4.profile
+DefaultProfile=StooKa.profile
 
 [DetailsMode]
 FontWeight=50
@@ -21,8 +21,25 @@ FontWeight=50
 IconSize=64
 PreviewSize=208
 
+[KPropertiesDialog]
+DisplayPort-0 HDMI-A-0 Height 2560x1440=544
+DisplayPort-0 HDMI-A-0 Width 2560x1440=498
+DisplayPort-0 Height 2560x1440=544
+DisplayPort-0 Width 2560x1440=498
+
 [MainWindow]
+DP-1 Height 2560x1440=715
+DP-1 Width 2560x1440=843
+DisplayPort-0 HDMI-A-0 Height 2560x1440=756
+DisplayPort-0 HDMI-A-0 Width 2560x1440=1145
+DisplayPort-0 HDMI-A-0 XPosition 2560x1440=906
+DisplayPort-0 HDMI-A-0 YPosition 2560x1440=373
+DisplayPort-0 Height 2560x1440=765
+DisplayPort-0 Width 2560x1440=1407
+DisplayPort-0 XPosition 2560x1440=340
+DisplayPort-0 YPosition 2560x1440=413
 MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADAAAAC1fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAoAAACoAAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAoAAAC1QAAAF0BAAADAAAAAQAAALgAAAUu/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACgAAAUuAAAACgEAAAMAAAADAAAFfwAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAFfwAAAAoBAAADAAAEvgAAAtUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 
 [MainWindow][Toolbar mainToolBar]
@@ -35,6 +52,7 @@ ConfirmTrash=true
 
 [Open-with settings]
 CompletionMode=1
+History=kolo
 
 [PlacesPanel]
 IconSize=22

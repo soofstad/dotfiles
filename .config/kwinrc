@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
 
 [Compositing]
 Backend=OpenGL
@@ -29,6 +29,16 @@ Rows=2
 [Desktops-screen-1]
 Number=1
 
+[DrmOutputs][7a052cbf67][06c86168f9]
+Mode=1920x1080_50000
+Scale=1
+Transform=normal
+
+[DrmOutputs][7a052cbf67][2deeade06a]
+Mode=2560x1440_59951
+Scale=1
+Transform=normal
+
 [Effect-CoverSwitch]
 TabBox=false
 TabBoxAlternative=false
@@ -49,6 +59,9 @@ TabBoxAlternative=false
 BorderActivate=9
 BorderActivateAll=9
 BorderActivateClass=9
+
+[Effect-ShowFps]
+TextColor=0,0,0
 
 [Effect-Wobbly]
 Drag=90
@@ -88,7 +101,6 @@ CommandWindowWheel=Scroll
 
 [Plugins]
 coverswitchEnabled=true
-cubeslideEnabled=true
 desktopchangeosdEnabled=true
 flipswitchEnabled=true
 glideEnabled=true
@@ -96,6 +108,7 @@ highlightwindowEnabled=true
 kwin-script-tilingEnabled=false
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_eyeonscreenEnabled=true
+kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_scaleEnabled=true
 kwin4_effect_squashEnabled=false
@@ -131,7 +144,7 @@ DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=1
 HighlightWindows=true
-LayoutName=present_windows
+LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
