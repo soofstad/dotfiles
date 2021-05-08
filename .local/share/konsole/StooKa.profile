@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=Breeze
-Font=Hack,11,-1,5,50,0,0,0,0,0
+Font=Iosevka Term,11,-1,5,50,0,0,0,0,0
 
 [General]
 Command=/usr/bin/fish

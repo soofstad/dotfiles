@@ -15,6 +15,9 @@ bind [5C forward-word
 # U = universal, x = export, g = global
 set -gx PIPENV_VENV_IN_PROJECT 1
 set -gx PATH $PATH /usr/local/bin/go/bin
+set -gx DOCKER_BUILDKIT 1
+set -gx COMPOSE_DOCKER_CLI_BUILD 1
+
 # Unset the greeting
 set fish_greeting
 
