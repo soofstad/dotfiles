@@ -9,7 +9,7 @@
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [
-        79
+        79, 119
     ],
     "editor.suggestSelection": "first",
     "editor.wordWrap": "on",
@@ -26,13 +26,10 @@
     "gitProjectManager.baseProjectsFolders": [
         "/home/stig/git",
         "/home/stig/Git",
-        "/private/stoo/Github",
-        "/private/stoo/Gitlab",
         "/home/sto/git"
     ],
     "prettier.jsxSingleQuote": true,
     "prettier.singleQuote": true,
-    "terminal.integrated.shell.linux": "/usr/bin/fish",
     "telemetry.enableTelemetry": false,
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "window.menuBarVisibility": "toggle",
