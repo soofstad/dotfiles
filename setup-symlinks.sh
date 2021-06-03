@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # Local folder to the dotfiles repo (input argument $1)
-DP="${1:-"/home/$(whoami)/git/dotfiles/"}"
-echo "Setting up symlinks from '/home/$(whoami)/' to '${DP}'"
+DP="${1:-"${HOME}/git/dotfiles/"}"
+echo "Setting up symlinks from '${HOME}/' to '${DP}'"
 
 TO_LINK=(
     ".config/Code/User/keybindings.json"
@@ -18,7 +18,7 @@ TO_LINK=(
 echo "----------------------------"
 for folder in "${TO_LINK[@]}"; do
     TO="$DP$folder"
-    FROM="/home/$(whoami)/$folder"
+    FROM="${HOME}/$folder"
 
     # Make sure the path to symlink exists
     mkdir --parents $(dirname $FROM)
