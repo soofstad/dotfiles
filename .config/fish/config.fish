@@ -31,3 +31,8 @@ set -gx DOTNET_CLI_TELEMETRY_OPTOUT 1
 
 # Pulumi
 set -gx PATH $PATH $HOME/.pulumi/bin
+
+# Golang
+set -gx PATH $PATH /usr/local/go/bin
+set -gx PATH $PATH $HOME/go/bin
+
