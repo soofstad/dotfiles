@@ -100,15 +100,13 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
-coverswitchEnabled=true
+cubeslideEnabled=true
 desktopchangeosdEnabled=true
-flipswitchEnabled=true
 glideEnabled=true
 highlightwindowEnabled=true
 kwin-script-tilingEnabled=false
 kwin4_effect_dimscreenEnabled=true
 kwin4_effect_eyeonscreenEnabled=true
-kwin4_effect_fadedesktopEnabled=true
 kwin4_effect_maximizeEnabled=false
 kwin4_effect_scaleEnabled=true
 kwin4_effect_squashEnabled=false
@@ -144,7 +142,7 @@ DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=1
 HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
+LayoutName=present_windows
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0

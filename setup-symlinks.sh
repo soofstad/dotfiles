@@ -13,7 +13,20 @@ TO_LINK=(
     ".config/pypoetry"
     ".config/zim"
     ".config/keepassxc"
-    ".local/share/konsole")
+    ".gitconfig"
+    ".kde/share/config/kdeglobals"
+    ".config/gtk-3.0/settings.ini"
+    ".config/latte"
+    ".config/dolphinrc"
+    ".config/kdeglobals"
+    ".config/kglobalshortcutsrc"
+    ".config/konsolerc"
+    ".config/kwinrc"
+    ".config/kwinrulesrc"
+    ".config/lattedockrc"
+    ".local/share/fonts"
+    ".local/share/konsole"
+    ".local/share/kxmlgui5")
 
 echo "----------------------------"
 for folder in "${TO_LINK[@]}"; do

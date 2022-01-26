@@ -148,8 +148,8 @@ BrowserApplication=vivaldi-stable.desktop
 ColorScheme=BreezeDark
 Name=Breeze Dark
 TerminalApplication[$e]=/usr/bin/terminator
-XftHintStyle=
-XftSubPixel=
+XftHintStyle=hintslight
+XftSubPixel=rgb
 dbfile=/home/stig/.mozilla/firefox/smj9882t.default/places.sqlite
 fixed=Hack,9,-1,5,50,0,0,0,0,0,Regular
 font=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
@@ -196,6 +196,10 @@ Sort reversed=false
 Speedbar Width=201
 View Style=Simple
 listViewIconSize=40
+
+[KScreen]
+ScaleFactor=1
+ScreenScaleFactors=DP-3.1=1;DP-3.2=1;DP-0=1;DP-1=1;DP-2=1;DP-3=1;DP-4=1;DP-5=1;DP-6=1;
 
 [KShortcutsDialog Settings]
 Dialog Size=1034,748
