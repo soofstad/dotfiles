@@ -79,7 +79,7 @@ TopLeft=None
 TopRight=None
 
 [ModifierOnlyShortcuts]
-Meta=org.kde.lattedock,/Latte,org.kde.LatteDock,activateLauncherMenu
+Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
 
 [MouseBindings]
 CommandActiveTitlebar1=Raise
@@ -202,5 +202,5 @@ ButtonsOnLeft=MF
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
-library=org.kde.sierrabreezeenhanced
-theme=Sierra Breeze Enhanced
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Breezemite_dark

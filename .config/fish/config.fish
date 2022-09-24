@@ -4,6 +4,7 @@
 alias ll='ls -lah'
 alias grep='grep --color=auto'
 alias ipi='ip -br -c addr show'
+alias dc='docker compose'
 
 # Key-bindings
 # ctrl+left
@@ -35,4 +36,3 @@ set -gx PATH $PATH $HOME/.pulumi/bin
 # Golang
 set -gx PATH $PATH /usr/local/go/bin
 set -gx PATH $PATH $HOME/go/bin
-
