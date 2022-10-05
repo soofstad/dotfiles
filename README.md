@@ -60,3 +60,8 @@ Set is a global standard with:
 
 You can then install Poetry in the versions venv with pip;  
 `pip install poetry`
+
+## Node
+```bash
+sudo dnf module install nodejs:18/development
+```
