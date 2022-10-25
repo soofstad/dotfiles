@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
 
 [Compositing]
 Backend=OpenGL
@@ -35,8 +35,13 @@ Scale=1
 Transform=normal
 
 [DrmOutputs][7a052cbf67][2deeade06a]
+BorderActivate=9
+BorderActivateCylinder=9
+BorderActivateSphere=9
 Mode=2560x1440_59951
 Scale=1
+TabBox=false
+TabBoxAlternative=false
 Transform=normal
 
 [Effect-CoverSwitch]
@@ -64,6 +69,24 @@ BorderActivateClass=9
 TextColor=0,0,0
 
 [Effect-Wobbly]
+Drag=90
+Stiffness=6
+WobblynessLevel=2
+
+[Effect-desktopgrid]
+BorderActivate=9
+TabBox=false
+TabBoxAlternative=false
+
+[Effect-presentwindows]
+BorderActivate=9
+BorderActivateAll=9
+BorderActivateClass=9
+
+[Effect-showfps]
+TextColor=0,0,0
+
+[Effect-wobblywindows]
 Drag=90
 Stiffness=6
 WobblynessLevel=2
@@ -203,4 +226,4 @@ ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Breezemite_dark
+theme=__aurorae__svg__WhiteSur-Sharp-dark

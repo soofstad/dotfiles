@@ -4,7 +4,7 @@
 alias ll='ls -lah'
 alias grep='grep --color=auto'
 alias ipi='ip -br -c addr show'
-alias dc='docker compose'
+alias dc='docker-compose'
 
 # Key-bindings
 # ctrl+left
@@ -36,3 +36,14 @@ set -gx PATH $PATH $HOME/.pulumi/bin
 # Golang
 set -gx PATH $PATH /usr/local/go/bin
 set -gx PATH $PATH $HOME/go/bin
+
+# Rust
+set -gx PATH $PATH $HOME/.cargo/bin
+
+# Azure functions core tool
+set -gx PATH $PATH /usr/local/bin/azure-functions-cli
+
+set --erase http_proxy
+set --erase HTTP_PROXY
+set --erase https_proxy
+set --erase HTTPS_PROXY
