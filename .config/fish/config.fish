@@ -5,6 +5,9 @@ alias ll='ls -lah'
 alias grep='grep --color=auto'
 alias ipi='ip -br -c addr show'
 alias dc='docker-compose'
+alias cat='bat'
+alias ls='exa'
+alias ll='exa -la --octal-permissions --group-directories-first'
 
 # Key-bindings
 # ctrl+left

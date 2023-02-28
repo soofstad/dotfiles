@@ -1,5 +1,5 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Compositing]
 Backend=OpenGL
@@ -184,6 +184,18 @@ ShowDesktopMode=0
 ShowTabBox=true
 SwitchingMode=0
 
+[Tiling]
+padding=4
+
+[Tiling][3921db03-2576-53c3-b9df-a67a986ae1f8]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.4406249999999996},{"width":0.5593750000000004}]}
+
+[Tiling][3adf4f27-e206-582f-99d9-e87cea2e952d]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5630208333333337},{"width":0.43697916666666625}]}
+
+[Tiling][c896a0b6-7056-594c-9906-2f5e2aa10868]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5261718750000001},{"width":0.4738281249999995}]}
+
 [Windows]
 ActiveMouseScreen=false
 AutoRaise=false
@@ -217,6 +229,9 @@ ShadeHoverInterval=250
 SnapOnlyWhenOverlapping=false
 TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=50
+
+[Xwayland]
+Scale=1
 
 [org.kde.kdecoration2]
 BorderSize=None

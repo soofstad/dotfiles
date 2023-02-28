@@ -1,7 +1,7 @@
 [user]
     email = stigofstad@gmail.com
     name = Stig Ofstad
-    signingkey = 648ACA0BAD64374A
+	signingkey = 66E131D77A526D62
 [alias]
     co = checkout
     st = status
@@ -16,3 +16,5 @@
 	rebase = true
 [push]
     autoSetupRemote = true
+[commit]
+	gpgsign = true

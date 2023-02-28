@@ -6,6 +6,8 @@
 sudo dnf install -y git \
      fish \
      curl \
+     exa \
+     bat \
      filelight \
      keepassxc \
      libreoffice \

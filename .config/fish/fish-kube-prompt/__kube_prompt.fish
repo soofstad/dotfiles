@@ -1,4 +1,4 @@
-# Inspired from:
+# Inspired by:
 # https://github.com/jonmosco/kube-ps1
 # https://github.com/Ladicle/fish-kubectl-prompt
 

@@ -135,17 +135,13 @@ ForegroundNormal=252,252,252
 ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
-[DirSelect Dialog]
-DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME/Nextcloud/Vivaldi_css,file:$HOME/speil/Music,file:$HOME/speil/Music,file:$HOME/Nextcloud/Vivaldi_css,file:$HOME/speil/Music,file:$HOME/Nextcloud/Vivaldi_css,file:$HOME/speil/Music,file:$HOME/Nextcloud/Vivaldi_css,file:///ssd-pool,file:///ssd-pool/Music,file:$HOME/ssd,file:$HOME/speil/Music,file:$HOME/Apps,file:$HOME/speil/Music,file:$HOME/speil/Music,file:$HOME/Pictures/Wallpapers,file:$HOME/speil/Music
-
 [Emoticons]
 emoticonsTheme=EmojiOne
 parseMode=2
 
 [General]
 BrowserApplication=vivaldi-stable.desktop
-ColorSchemeHash=bcce7c1c6181c5e14e633cd8301e7a9036b67ac6
+ColorSchemeHash=7e27a66e6ec46638e4fb9d9f6caa72c4f044c338
 Name=Breeze Dark
 TerminalApplication[$e]=/usr/bin/terminator
 XftHintStyle=hintslight
