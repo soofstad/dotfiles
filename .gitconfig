@@ -1,7 +1,7 @@
 [user]
     email = stigofstad@gmail.com
     name = Stig Ofstad
-	signingkey = 66E131D77A526D62
+    signingkey = ~/.ssh/id_rsa
 [alias]
     co = checkout
     st = status
@@ -18,3 +18,5 @@
     autoSetupRemote = true
 [commit]
 	gpgsign = true
+[gpg]
+	format = ssh
