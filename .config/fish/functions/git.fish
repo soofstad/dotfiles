@@ -4,6 +4,6 @@ end
 
 function gitfix --description "Add changes, do an ammend, and force push"
 	git add -u
-	git commit --amend --reuse-message HEAD
+	git commit --amend --reuse-message HEAD $argv
 	git push -f
 end

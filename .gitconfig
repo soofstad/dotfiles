@@ -8,7 +8,7 @@
     # %h=short hash, %ad=author date, %aN=author name, %s=subject(message), %D=ref names
     l = log --graph --format=format:'%C(yellow)%h% %C(blue)%>(12) %ad %C(green)%>(12,mtrunc)%aN%C(auto,reset)  %s%C(auto) %D'
 [core]
-    editor = vim
+    editor = micro
     autocrlf = false
 [log]
     date = relative
