@@ -21,6 +21,12 @@ sudo dnf install -y git \
      micro
 ```
 
+As flatpak
+```bash
+vlc
+vivaldi
+```
+
 ## Visual Studio Code
 
 <https://code.visualstudio.com/Download>

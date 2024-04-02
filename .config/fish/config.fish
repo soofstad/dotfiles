@@ -6,8 +6,8 @@ alias grep='grep --color=auto'
 alias ipi='ip -br -c addr show'
 alias dc='docker compose'
 alias cat='bat'
-alias ls='exa'
-alias ll='exa -la --group-directories-first'
+alias ls='eza'
+alias ll='eza -la --group-directories-first'
 
 # Key-bindings
 # ctrl+left
@@ -50,3 +50,4 @@ set --erase http_proxy
 set --erase HTTP_PROXY
 set --erase https_proxy
 set --erase HTTPS_PROXY
+zoxide init fish | source
