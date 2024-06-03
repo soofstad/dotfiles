@@ -1,6 +1,15 @@
 [$Version]
 update_info=kwinrules.upd:replace-placement-string-to-enum
 
+[0baf836d-09a6-4881-8055-17577ffe0201]
+Description=Application settings for Code
+clientmachine=localhost
+noborder=true
+noborderrule=2
+wmclass=code Code
+wmclasscomplete=true
+wmclassmatch=1
+
 [1]
 Description=Application settings for jetbrains-rider
 clientmachinematch=0
@@ -63,5 +72,14 @@ wmclass=konsole
 wmclassmatch=2
 
 [General]
-count=5
-rules=1,2,3,4,5
+count=7
+rules=0baf836d-09a6-4881-8055-17577ffe0201,ff7e404d-e8be-4a6f-bcd1-838d26be34df,1,2,3,4,5
+
+[ff7e404d-e8be-4a6f-bcd1-838d26be34df]
+Description=Application settings for Slack
+clientmachine=localhost
+noborder=true
+noborderrule=2
+wmclass=slack Slack
+wmclasscomplete=true
+wmclassmatch=1

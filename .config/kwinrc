@@ -158,13 +158,13 @@ active=-1
 count=0
 
 [TabBox]
-ActivitiesMode=1
+ActivitiesMode=0
 ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
 DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
-DesktopMode=1
+DesktopMode=0
 HighlightWindows=true
 LayoutName=present_windows
 MinimizedMode=0
@@ -212,6 +212,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][9bbd264d-dae8-5324-ad03-5127e4e139ce]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][b725e686-af30-57d1-abd1-3504161ac45b]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][c198ea0e-23e7-5ab7-8e30-c208b2c94b3e]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -224,8 +227,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][fe74c6ab-d1c4-565c-968e-f49ec49825bf]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Wayland]
+VirtualKeyboardEnabled=false
+
 [Windows]
-ActiveMouseScreen=false
 AutoRaise=false
 AutoRaiseInterval=750
 AutogroupInForeground=true
@@ -259,7 +264,7 @@ TitlebarDoubleClickCommand=Maximize
 WindowSnapZone=50
 
 [Xwayland]
-Scale=1.2
+Scale=1.25
 
 [org.kde.kdecoration2]
 BorderSize=None
@@ -268,5 +273,5 @@ ButtonsOnLeft=MF
 ButtonsOnRight=IAX
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
-library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Breezemite_dark
+library=org.kde.breeze
+theme=Breeze

@@ -44,7 +44,6 @@ DP-7 DP-6 eDP-1 Width 2560x1600 DP-6=1280
 DP-7 DP-6 eDP-1 Width 2560x1600 DP-7=800
 DP-7 DP-6 eDP-1 Window-Maximized 2560x1600 DP-6=true
 MenuBar=Disabled
-ToolBarsMovable=Disabled
 eDP-1 DP-1 Height 3840x1600 DP-1=800
 eDP-1 DP-1 Width 3840x1600 DP-1=800
 eDP-1 DP-1 Window-Maximized 3840x1600 DP-1=true
