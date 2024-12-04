@@ -9,6 +9,7 @@ TO_LINK=(
     ".config/Code/User/keybindings.json"
     ".config/Code/User/settings.json"
     ".config/fish"
+    ".config/joplin-desktop/settings.json"
     ".config/micro"
     ".config/pypoetry"
     ".config/zim"

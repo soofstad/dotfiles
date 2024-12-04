@@ -1,0 +1,37 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"sync.target": 2,
+	"sync.2.path": "/home/sto/Nextcloud/joplin-sync",
+	"locale": "en_GB",
+	"theme": 2,
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 256,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 348,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"api.token": "8e343d629eea743a1a8dbf7590b157cd32aff3b90c4804337fdd4a7ce298d858b47e6f98217f70880695aa96cf6c7b4c1d579cbb34c21fa3e319a95a4a0846c9",
+	"spellChecker.languages": [
+		"en-US"
+	]
+}
