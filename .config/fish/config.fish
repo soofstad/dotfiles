@@ -2,6 +2,9 @@
 
 # Aliases
 alias ll='ls -lah'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 alias grep='grep --color=auto'
 alias ipi='ip -br -c addr show'
 alias dc='docker compose'
